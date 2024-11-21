@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApplication1
+﻿﻿using System;
+public class TablaMultiplicar
 {
-    class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int x = Convert.ToInt32(Console.ReadLine());
+        for (int i = 0; i <= 10; i++)
         {
+            Console.WriteLine("{0}x{1}= {2}", x, i, x * i);
         }
-    }
+        Console.ReadKey();
+    } 
 }
+
+/*
+ * Escribe un programa en C# que pregunte al usuario por un número x y muestre el resultado de su tabla de multiplicar del 1 al 10.
+ * */
